@@ -1,10 +1,21 @@
 return {
---肉类料理
+-- Favorite Foods
+	"baconeggs", -- Wilson
+	"hotchili", -- Willow
+	"honeynuggets", -- Woodie
+	"turkeydinner", -- Wigfrid
+	"bananapop", -- Wendy
+	"monsterlasagna", -- Webber
+	"butterflymuffin", -- WX-78
+-- Meat
 	"bonestew",
 	"meatballs",
 	"kabobs",
-	"honeyham",
-	"honeynuggets",
+	"honeyham",	
+	"perogies",
+	"frogglebunwich",
+	"guacamole",
+-- Fish
 	"surfnturf",
 	"seafoodgumbo",
 	"fishsticks",
@@ -18,48 +29,44 @@ return {
 	"barnaclinguine",
 	"barnaclepita",
 	"barnaclesushi",
-	"turkeydinner",
-	"baconeggs",
-	"perogies",
-	"hotchili",
-	"pepperpopper",
-	"frogglebunwich",
-	"guacamole",
-	"monsterlasagna",
---蔬菜料理
-	"mandrakesoup",
-	"shroomcake",
-	"sweettea",
-	"mashedpotatoes",
-	"potatotornado",
-	"pumpkincookie",
-	"stuffedeggplant",
-	"salsa",
-	"vegstinger",
-	"ratatouille",
-	"asparagussoup",
-	"flowersalad",
+-- Meat...?
 	"meatysalad",
 	"leafymeatsouffle",
 	"leafymeatburger",
 	"leafloaf",
---水果料理
-	"dragonpie",
+-- Veggie
+	"pepperpopper",
+	"mashedpotatoes",
+	"potatotornado",
+	"stuffedeggplant",
+	"salsa",
+	"ratatouille",
+	"asparagussoup",
+-- Fruit
 	"jammypreserves",
+	"dragonpie",
+	"flowersalad",	
 	"fruitmedley",
 	"trailmix",
---冰镇料理
-	"bananapop",
+	"bananajuice",
+-- Desserts
 	"watermelonicle",
---甜品料理
+	"pumpkincookie",	
 	"icecream",
 	"waffles",
-	"butterflymuffin",
-	"powcake",
---糖果
 	"taffy",
 	"jellybean",
---沃利专属料理
+-- Drinks
+	"sweettea",
+	"vegstinger",
+-- Beefalo Foods
+	"beefalofeed",
+	"beefalotreat",
+-- Other
+	"mandrakesoup",
+	"powcake",
+	"shroomcake",
+-- Warly's Food
 	"bonesoup",
 	"freshfruitcrepes",
 	"moqueca",
@@ -71,14 +78,8 @@ return {
 	"gazpacho",
 	"dragonchilisalad",
 	"nightmarepie",
---失败料理
+-- the Goop
 	"wetgoop",
-
-
-
-
-
-
 --辣味料理
 	"bonestew_spice_chili",
 	"meatballs_spice_chili",

@@ -153,4 +153,7 @@ return {
     "gingerbreadpig",
     --NPC
     "hermitcrab"
+    -- Storm
+    "bird_mutant",
+    "bird_mutant_spitter",
 }

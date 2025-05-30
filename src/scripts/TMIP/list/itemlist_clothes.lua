@@ -1,51 +1,91 @@
 return {
---花环
+
+-- Wreaths
 	"kelphat",
 	"flowerhat",
---精神
-	"featherhat",
-	"tophat",
-	"walterhat",
---风镜
-	"goggleshat",
-	"deserthat",
---保暖
+
+-- Winter Gear
 	"catcoonhat",
 	"earmuffshat",
 	"winterhat",
 	"walrushat",
 	"beefalohat",
---避雨降温
-	"red_mushroomhat",
-	"blue_mushroomhat",
-	"green_mushroomhat",
+	"trunkvest_summer",
+	"trunkvest_winter",
+	"beargervest",
+
+-- Summer Gear
 	"strawhat",
 	"watermelonhat",
-	"icehat",
+	"icehat",	
+	"reflectivevest",
+	"hawaiianshirt",
+
+-- Spring/Rain Gear
 	"rainhat",
 	"eyebrellahat",
---新年装扮
+	"raincoat",
+
+-- Sanity Gear
+	"tophat",
+	"walterhat",
+
+-- Farming Gear
+	"plantregistryhat",
+	"nutrientsgoggleshat",
+
+-- Boss Drops
+	"spiderhat",
+	"alterguardianhat",
+	"hivehat",
+	"antlionhat",
+
+-- Other functional clothing
+	"featherhat",
+	"deserthat"
+	"mermhat",
+	"bushhat",
+	"batnosehat",
+	"armor_carrotlure"
+
+-- Vanity/Non-functional
+	"goggleshat",
 	"dragonheadhat",
 	"dragonbodyhat",		
 	"dragontailhat",
---其他帽子
-	"mermhat",
-	"bushhat",
-	"spiderhat",
---特殊
-	"batnosehat",
-	"plantregistryhat",
-	"nutrientsgoggleshat",
---避雨保暖
-	"trunkvest_summer",
-	"raincoat",
---保暖
 	"sweatervest",
-	"trunkvest_winter",
-	"beargervest",
---降温
-	"reflectivevest",
-	"hawaiianshirt",
---延缓饥饿
+
+-- Mushroom Hats
+	"red_mushroomhat",
+	"blue_mushroomhat",
+	"green_mushroomhat",
+
+-- pain
 	"armorslurper",
+
+-- Stage Costumes
+	-- Queen
+	"mask_queenhat",
+	-- King
+	"mask_kinghat",
+	-- Mirror
+	"mask_mirrorhat"
+	-- Doll
+	"mask_dollhat",
+	-- Shattered Doll
+	"mask_dollbrokenhat",
+	-- Repaired Doll
+	"mask_dollrepairedhat",
+	-- Jester
+	"mask_foolhat"
+	-- Blacksmith
+	"mask_blacksmithhat",
+	-- Tree :)
+	"mask_treehat"
+	-- Sage
+	"mask_sagehat",
+	-- Toady
+	"mask_toadyhat",
+	-- Halfwit
+	"mask_halfwithat",
 }

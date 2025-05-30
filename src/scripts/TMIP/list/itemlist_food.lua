@@ -1,5 +1,5 @@
 return {
---肉类（可烹饪）
+-- Meat
 	"meat",
 	"cookedmeat",
 	"meat_dried",
@@ -13,14 +13,14 @@ return {
 	"drumstick_cooked",
 	"froglegs",
 	"froglegs_cooked",
---淡水鱼
+-- Fish (Ponds)
 	"pondfish",
 	"fish",
 	"fish_cooked",
 	"pondeel",
 	"eel",
 	"eel_cooked",
---海鱼 大型
+-- Medium Fish (Ocean)
 	"oceanfish_medium_1_inv",
 	"oceanfish_medium_2_inv",
 	"oceanfish_medium_3_inv",
@@ -29,7 +29,7 @@ return {
 	"oceanfish_medium_6_inv",
 	"oceanfish_medium_7_inv",
 	"oceanfish_medium_8_inv",
---海鱼 小型
+-- Small Fish (Ocean)
 	"oceanfish_small_1_inv",
 	"oceanfish_small_2_inv",
 	"oceanfish_small_3_inv",
@@ -39,45 +39,60 @@ return {
 	"oceanfish_small_7_inv",
 	"oceanfish_small_8_inv",
 	"oceanfish_small_9_inv",
---鱼肉
+-- Fish Meat
 	"fishmeat",
 	"fishmeat_cooked",
 	"fishmeat_small",
 	"fishmeat_small_cooked",
---藤壶
+-- Barnacles
 	"barnacle",
 	"barnacle_cooked",
---龙虾
+-- Wobster
 	"wobster_sheller_land",
 	"wobster_sheller_dead",
 	"wobster_sheller_dead_cooked",
---蛋类
+-- Eggs
 	"tallbirdegg",
 	"tallbirdegg_cooked",
 	"bird_egg",
 	"bird_egg_cooked",
---蔬菜农作物
-	"asparagus",
-	"asparagus_cooked",
-	"corn",
-	"corn_cooked",
-	"onion",
-	"onion_cooked",
-	"carrot",
-	"carrot_cooked",
-	"potato",
-	"potato_cooked",
-	"tomato",
-	"tomato_cooked",
-	"garlic",
-	"garlic_cooked",
-	"pumpkin",
-	"pumpkin_cooked",
-	"eggplant",
-	"eggplant_cooked",
-	"pepper",
-	"pepper_cooked",
---其他蔬菜（可烹饪）
+	"tallbirdegg_cracked",
+-- Farm Foods
+	-- Veggies
+		"asparagus",
+		"asparagus_cooked",
+		"corn",
+		"corn_cooked",
+		"onion",
+		"onion_cooked",
+		"carrot",
+		"carrot_cooked",
+		"potato",
+		"potato_cooked",
+		"tomato",
+		"tomato_cooked",
+		"garlic",
+		"garlic_cooked",
+		"pumpkin",
+		"pumpkin_cooked",
+		"eggplant",
+		"eggplant_cooked",
+		"pepper",
+		"pepper_cooked",
+	-- Fruits
+		"dragonfruit",
+		"dragonfruit_cooked",
+		"pomegranate",
+		"pomegranate_cooked",
+		"watermelon",
+		"watermelon_cooked",
+		"durian",
+		"durian_cooked",
+	-- Weeds
+		"tillweed",
+		"forgetmelots",
+		"firenettles",
+-- Mushrooms
 	"red_cap",
 	"red_cap_cooked",
 	"green_cap",
@@ -86,27 +101,16 @@ return {
 	"blue_cap_cooked",
 	"moon_cap",
 	"moon_cap_cooked",
+-- Cactus
 	"cactus_meat",
 	"cactus_meat_cooked",
 	"cactus_flower",
+-- Moon Island Foods
 	"cutlichen",
 	"rock_avocado_fruit_ripe",
 	"rock_avocado_fruit_ripe_cooked",
-	"mandrake",
---农作物杂草
-	"tillweed",
-	"forgetmelots",
-	"firenettles",
---水果农作物
-	"dragonfruit",
-	"dragonfruit_cooked",
-	"pomegranate",
-	"pomegranate_cooked",
-	"watermelon",
-	"watermelon_cooked",
-	"durian",
-	"durian_cooked",
---其他水果 Other fruits
+	"rock_avocado_fruit",
+-- Fruits
 	"berries",
 	"berries_cooked",
 	"berries_juicy",
@@ -115,64 +119,69 @@ return {
 	"cave_banana_cooked",
 	"wormlight",
 	"wormlight_lesser",
---蝴蝶
+-- Butterfly Wings
 	"butterflywings",
 	"moonbutterflywings",
---乳制品
+-- Dairy
 	"butter",
 	"goatmilk",
---蜂蜜
+-- Bees!
 	"honey",
 	"royal_jelly",
---坚果
+-- Acorn
 	"acorn_cooked",
---冰
+-- Ice
 	"ice",
---其他不可食用（可烹饪）
+-- Inedible crockpot ingredients
 	"mole",
 	"twigs",
 	"boneshard",
 	"nightmarefuel",
 	"lightninggoathorn",
---其他可食用（不可烹饪）
+-- Elephant Trunks
 	"trunk_summer",
 	"trunk_winter",
 	"trunk_cooked",
+-- Lure Plant
 	"plantmeat",
 	"plantmeat_cooked",
+-- Bats
 	"batwing",
 	"batwing_cooked",
 	"batnose",
 	"batnose_cooked",
+-- Long pig
 	"humanmeat",
 	"humanmeat_cooked",
 	"humanmeat_dried",
-	"rottenegg",
-	"tallbirdegg_cracked",
+-- Mandrake
 	"cookedmandrake",
-	"kelp",
-	"kelp_cooked",
-	"kelp_dried",
+	"mandrake",
+-- Flowers/Leaves
 	"moon_tree_blossom",
 	"petals",
 	"petals_evil",
 	"foliage",
 	"succulent_picked",
 	"lightbulb",
+-- antchovies.
 	"antchovies",
---粘液
+-- Seaweed
+	"kelp",
+	"kelp_cooked",
+	"kelp_dried",
+-- the slime
 	"phlegm",
 	"glommerfuel",
---boss掉落
+-- Boss Drops
 	"minotaurhorn",
 	"deerclops_eyeball",
---腐烂物
+-- Spoiled/Rotten Food
 	"spoiled_food",
 	"spoiled_fish",
 	"spoiled_fish_small",
---特殊
-	"rock_avocado_fruit",
---种子
+	"rottenegg",
+-- Seeds
 	"asparagus_seeds",
 	"carrot_seeds",
 	"corn_seeds",
@@ -189,44 +198,45 @@ return {
 	"watermelon_seeds",
 	"seeds",
 	"seeds_cooked",
---调料
+-- Spices
 	"spice_sugar",
 	"spice_salt",
 	"spice_chili",
 	"spice_garlic",
---伍迪食物雕像
+-- Woodie's Idols
 	"wereitem_beaver",
 	"wereitem_goose",
 	"wereitem_moose",
---猪年食品
-	"yotp_food1",
-	"yotp_food2",
-	"yotp_food3",
---冬季盛宴零食
-	"winter_food1",
-	"winter_food2",
-	"winter_food3",
-	"winter_food4",
-	"winter_food5",
-	"winter_food6",
-	"winter_food7",
-	"winter_food8",
-	"winter_food9",
-	"wintersfeastfuel",
-	"crumbs",
---万圣夜糖果
-	"halloweencandy_1",
-	"halloweencandy_2",
-	"halloweencandy_3",
-	"halloweencandy_4",
-	"halloweencandy_5",
-	"halloweencandy_6",
-	"halloweencandy_7",
-	"halloweencandy_8",
-	"halloweencandy_9",
-	"halloweencandy_10",
-	"halloweencandy_11",
-	"halloweencandy_12",
-	"halloweencandy_13",
-	"halloweencandy_14",
+-- Special Events
+	-- Year of the Pig
+		"yotp_food1",
+		"yotp_food2",
+		"yotp_food3",
+	-- Winter's Feast
+		"winter_food1",
+		"winter_food2",
+		"winter_food3",
+		"winter_food4",
+		"winter_food5",
+		"winter_food6",
+		"winter_food7",
+		"winter_food8",
+		"winter_food9",
+		"wintersfeastfuel",
+		"crumbs",
+	-- Halloween Candy
+		"halloweencandy_1",
+		"halloweencandy_2",
+		"halloweencandy_3",
+		"halloweencandy_4",
+		"halloweencandy_5",
+		"halloweencandy_6",
+		"halloweencandy_7",
+		"halloweencandy_8",
+		"halloweencandy_9",
+		"halloweencandy_10",
+		"halloweencandy_11",
+		"halloweencandy_12",
+		"halloweencandy_13",
+		"halloweencandy_14",
 }

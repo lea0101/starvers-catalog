@@ -1,5 +1,5 @@
 return {
---武器
+-- Melee Weapons
 	"cane",
 	"bullkelp_root",
 	"whip",
@@ -14,20 +14,22 @@ return {
 	"glasscutter",
 	"nightstick",
 
-
-
+-- Ranged Weapons
 	"boomerang",
 	"blowdart_pipe",
 	"blowdart_yellow",
 	"blowdart_sleep",
 	"blowdart_fire",
 	"staff_tornado",
---投掷武器
 	"waterplant_bomb",
-
---弹弓
+-- Wes
+	"balloonvest",
+	"balloonhat",
+	"balloonspeed",
+	"balloonparty",
+	"balloon",
+-- Walter
 	"slingshot",
---弹药
 	"slingshotammo_rock",
 	"slingshotammo_gold",
 	"slingshotammo_marble",
@@ -35,7 +37,10 @@ return {
 	"slingshotammo_freeze",
 	"slingshotammo_slow",
 	"slingshotammo_thulecite",
---头盔
+
+-- Armor Pairs
+
+-- Armor (Head Slot)
 	"cookiecutterhat",
 	"footballhat",
 	"wathgrithrhat",
@@ -44,7 +49,8 @@ return {
 	"slurtlehat",
 	"hivehat",
 	"skeletonhat",
---护甲
+
+-- Armor (Body Slot)
 	"armorgrass",
 	"armor_bramble",
 	"armorwood",
@@ -54,14 +60,12 @@ return {
 	"armorsnurtleshell",
 	"armordragonfly",
 	"armorskeleton",
-
-
-
-
-
-
-
---背包
+	"armor_lunarplant",
+	"armor_lunarplant_husk",
+	"armor_voidcloth",
+	"armordreadstone",
+	"armorwagpunk"
+-- Backpacks
 	"backpack",
 	"piggyback",
 	"krampus_sack",
@@ -69,4 +73,5 @@ return {
 	"icepack",
 	"candybag",
 	"seedpouch",
+	"beargerfur_sack",
 }

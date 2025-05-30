@@ -1,3 +1,11 @@
+In the process of re-organizing and updating this mod.
+
+TO-DO:
+- Move RWYS items to regular food category
+- Replace RWYS section with special event (i.e. crossovers) section
+- Allow sorting items by name, category, etc.
+- Simplify UI and make debug options (teleport, move speed, etc.) easier to use
+
 # Too many item plus
 
 ![图标](https://raw.githubusercontent.com/ariwori/toomanyitemsplus/master/scrimage/TooManyItemsPlusSteamLogo.png)

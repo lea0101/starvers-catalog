@@ -1,5 +1,7 @@
 return {
-    --战斗道具
+    "reskin_tool",
+    "cookbook",
+-- Traps/Mines
     "gunpowder",
     "beemine",
     "trap_teeth",
@@ -8,55 +10,72 @@ return {
     "sleepbomb",
     "panflute",
     "eyeturret_item",
-    --医疗道具
+-- Healing
     "healingsalve",
     "bandage",
     "lifeinjector",
     "reviver",
     "compostwrap",
     "tillweedsalve",
-    --药水
-    "halloweenpotion_bravery_small",
-    "halloweenpotion_bravery_large",
-    "halloweenpotion_health_small",
-    "halloweenpotion_health_large",
-    "halloweenpotion_sanity_small",
-    "halloweenpotion_sanity_large",
-    "halloweenpotion_embers",
-    "halloweenpotion_sparks",
-    "halloweenpotion_moon",
-    --黑暗炼金药剂
-    "ghostlyelixir_attack",
-    "ghostlyelixir_speed",
-    "ghostlyelixir_slowregen",
-    "ghostlyelixir_fastregen",
-    "ghostlyelixir_shield",
-    "ghostlyelixir_retaliation",
-    --温泉道具
-    "bathbomb",
-    --驱赶野兽道具
-    "firecrackers",
-    --换人道具
+    "bandage_butterflywings",
+-- Celestial Portal
     "moonrockidol",
     "moonrockseed",
     "multiplayer_portal_moonrock_constr_plans",
-    --换皮肤道具
-    "reskin_tool",
-    --隐士相关
+-- Pearl Stuff
     "hermit_pearl",
     "hermit_cracked_pearl",
     "messagebottle",
     "messagebottleempty",
-    --远古用品
-    "archive_lockbox",
-    "archive_resonator_item",
-    --贝壳钟
+-- Character-Specific Items
+    -- Wendy
+        "abigail_flower",
+        "ghostlyelixir_attack",
+        "ghostlyelixir_speed",
+        "ghostlyelixir_slowregen",
+        "ghostlyelixir_fastregen",
+        "ghostlyelixir_shield",
+        "ghostlyelixir_retaliation",
+    -- Willow
+        "bernie_inactive",
+    -- Wigfrid
+        "battlesong_durability",
+        "battlesong_healthgain",
+        "battlesong_sanitygain",
+        "battlesong_sanityaura",
+        "battlesong_fireresistance",
+        "battlesong_instant_taunt",
+        "battlesong_instant_panic",
+        "battlesong_instant_revive",
+        "battlesong_lunaraligned",
+        "battlesong_shadowaligned",
+        "battlesong_container",
+    -- Wes
+        "balloons_empty",
+    -- Wortox
+        "wortox_soul",
+    -- Wickerbottom
+        "book_birds",
+        "book_brimstone",
+        "book_gardening",
+        "book_horticulture",
+        "book_silviculture",
+        "book_sleep",
+        "book_tentacles", -- ( ͡° ͜ʖ ͡°) 
+    -- Waxwell
+        "waxwelljournal",
+-- Moon Stuff
+    "bathbomb",
     "singingshell_octave3",
     "singingshell_octave4",
     "singingshell_octave5",
-    --随从道具
-    "abigail_flower",
-    "bernie_inactive",
+-- Cave Stuff
+    "atrium_key",
+    "nightmare_timepiece",
+    "archive_lockbox",
+    "archive_resonator_item",
+    "shadowheart",
+-- Follower Items
     "lavae_tooth",
     "fruitflyfruit",
     "chester_eyebone",
@@ -67,31 +86,7 @@ return {
     "onemanband",
     "pig_coin",
     "beef_bell",
-    --暴动检测
-    "nightmare_timepiece",
-    "atrium_key",
-    "shadowheart",
-    --人物专属
-    "balloons_empty",
-    "wortox_soul",
-    "battlesong_durability",
-    "battlesong_healthgain",
-    "battlesong_sanitygain",
-    "battlesong_sanityaura",
-    "battlesong_fireresistance",
-    "battlesong_instant_taunt",
-    "battlesong_instant_panic",
-    --书
-    "book_birds",
-    "book_brimstone",
-    "book_gardening",
-    "book_horticulture",
-    "book_silviculture",
-    "book_sleep",
-    "book_tentacles",
-    "waxwelljournal",
-    "cookbook",
-    --雕像草图
+-- Statue Sketches
     "chesspiece_moosegoose_sketch",
     "chesspiece_dragonfly_sketch",
     "chesspiece_bearger_sketch",
@@ -117,7 +112,7 @@ return {
     "chesspiece_clayhound_sketch",
     "chesspiece_carrat_sketch",
     "chesspiece_beefalo_sketch",
-    --渔具图纸
+-- Tackle Blueprints 
     "oceanfishinglure_hermit_drowsy_tacklesketch",
     "oceanfishinglure_hermit_heavy_tacklesketch",
     "oceanfishinglure_hermit_rain_tacklesketch",
@@ -130,21 +125,33 @@ return {
     "oceanfishingbobber_canary_tacklesketch",
     "oceanfishingbobber_goose_tacklesketch",
     "oceanfishingbobber_malbatross_tacklesketch",
-    --萝卜鼠
-    "yotc_carrat_scale_item",
-    "yotc_carrat_gym_speed_item",
-    "yotc_carrat_gym_reaction_item",
-    "yotc_carrat_gym_stamina_item",
-    "yotc_carrat_gym_direction_item",
-    "yotc_carrat_race_start_item",
-    "yotc_carrat_race_checkpoint_item",
-    "yotc_carrat_race_finish_item",
-    --皮弗娄牛
-    "yotb_pattern_fragment_1",
-    "yotb_pattern_fragment_2",
-    "yotb_pattern_fragment_3",
-    "yotb_post_item",
-    "yotb_sewingmachine_item",
-    "yotb_stage_item",
-    "beefalo_groomer_item"
+-- Special Events
+    "firecrackers",
+    -- Year of the Carrat
+        "yotc_carrat_scale_item",
+        "yotc_carrat_gym_speed_item",
+        "yotc_carrat_gym_reaction_item",
+        "yotc_carrat_gym_stamina_item",
+        "yotc_carrat_gym_direction_item",
+        "yotc_carrat_race_start_item",
+        "yotc_carrat_race_checkpoint_item",
+        "yotc_carrat_race_finish_item",
+    -- Year of the Beefalo
+        "yotb_pattern_fragment_1",
+        "yotb_pattern_fragment_2",
+        "yotb_pattern_fragment_3",
+        "yotb_post_item",
+        "yotb_sewingmachine_item",
+        "yotb_stage_item",
+        "beefalo_groomer_item"
+    -- Hallowed Nights
+        "halloweenpotion_bravery_small",
+        "halloweenpotion_bravery_large",
+        "halloweenpotion_health_small",
+        "halloweenpotion_health_large",
+        "halloweenpotion_sanity_small",
+        "halloweenpotion_sanity_large",
+        "halloweenpotion_embers",
+        "halloweenpotion_sparks",
+        "halloweenpotion_moon",
 }

@@ -1,5 +1,5 @@
 return {
-    --农作物种子
+    -- Farm Seeds
     "asparagus_seeds",
     "carrot_seeds",
     "corn_seeds",
@@ -15,25 +15,27 @@ return {
     "pomegranate_seeds",
     "watermelon_seeds",
     "seeds",
-    --蘑菇
+    -- Mushrooms and Spores
     "red_cap",
     "spore_medium",
     "green_cap",
     "spore_small",
     "blue_cap",
     "spore_tall",
-    --食人花
+    -- Lure plant
     "lureplantbulb",
-    --树种
+    -- Trees
     "marblebean",
     "livingtree_root",
     "twiggy_nut",
     "acorn",
     "pinecone",
     "moonbutterfly",
-    --花种
-    "butterfly",
-    --移植
+    "acorn_sapling_waxed"
+    -- Flowers
+    "butterfly"
+    "moonbutterfly",
+    -- Digged crops
     "dug_berrybush",
     "dug_berrybush2",
     "dug_berrybush_juicy",
@@ -44,6 +46,10 @@ return {
     "dug_rock_avocado_bush",
     "rock_avocado_fruit_sprout",
     "bullkelp_root",
-    --藤壶
-    "waterplant_planter"
+    -- Barnacles
+    "waterplant_planter",
+    -- Ancient Trees
+    "ancienttree_gem_sapling_item,
+    "ancienttree_nightvision_sapling_item",
+    "ancienttree_seed",
 }

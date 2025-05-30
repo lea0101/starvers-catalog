@@ -1,10 +1,10 @@
 return {
---四季boss
+-- Seasonal Bosses
 	"moose",
 	"antlion",
 	"bearger",
 	"deerclops",
---领地boss
+-- Raid Bosses
 	"dragonfly",
 	"malbatross",
 	"beequeen",
@@ -13,23 +13,27 @@ return {
 	"toadstool",
 	"toadstool_dark",
 	"minotaur",
---骨架
+-- Ancient Fuelweaver
 	"stalker",
 	"stalker_forest",
 	"stalker_atrium",
---暗影boss
+-- Shadow Pieces
 	"shadow_knight",
 	"shadow_rook",
 	"shadow_bishop",
---树精
+-- Treeguards
 	"leif",
 	"leif_sparse",
 	"deciduoustree",
---怪物首领
+-- Leader bosses
 	"lordfruitfly",
 	"spiderqueen",
 	"warg",
 	"claywarg",
 	"gingerbreadwarg",
 	"spat",
+-- Alter
+	"alterguardian_phase1",
+	"alterguardian_phase2",
+	"alterguardian_phase3",
 }
