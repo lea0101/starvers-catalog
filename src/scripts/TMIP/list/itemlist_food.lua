@@ -88,6 +88,8 @@ return {
 		"watermelon_cooked",
 		"durian",
 		"durian_cooked",
+		"fig",
+		"fig_cooked",
 	-- Weeds
 		"tillweed",
 		"forgetmelots",

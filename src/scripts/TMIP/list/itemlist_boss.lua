@@ -36,4 +36,6 @@ return {
 	"alterguardian_phase1",
 	"alterguardian_phase2",
 	"alterguardian_phase3",
+-- Terraria Bosses
+	"eyeofterror",
 }

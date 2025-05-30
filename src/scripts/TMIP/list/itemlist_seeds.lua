@@ -31,11 +31,11 @@ return {
     "acorn",
     "pinecone",
     "moonbutterfly",
-    "acorn_sapling_waxed"
+    "acorn_sapling",
     -- Flowers
     "butterfly"
     "moonbutterfly",
-    -- Digged crops
+    -- Dug crops
     "dug_berrybush",
     "dug_berrybush2",
     "dug_berrybush_juicy",
@@ -46,10 +46,16 @@ return {
     "dug_rock_avocado_bush",
     "rock_avocado_fruit_sprout",
     "bullkelp_root",
+    "dug_bananabush",
+    "dug_monkeytail",
     -- Barnacles
     "waterplant_planter",
     -- Ancient Trees
     "ancienttree_gem_sapling_item,
     "ancienttree_nightvision_sapling_item",
     "ancienttree_seed",
+    -- Waxed Items
+    "dug_sapling_waxed",
+    "dug_sapling_moon_waxed",
+    "dug_bananabush_waxed",
 }

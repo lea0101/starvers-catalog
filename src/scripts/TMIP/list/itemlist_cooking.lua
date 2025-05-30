@@ -15,6 +15,8 @@ return {
 	"perogies",
 	"frogglebunwich",
 	"guacamole",
+	"bunnystew",
+	"frognewton",
 -- Fish
 	"surfnturf",
 	"seafoodgumbo",
@@ -49,6 +51,8 @@ return {
 	"fruitmedley",
 	"trailmix",
 	"bananajuice",
+	"figatoni",
+	"figkabab",
 -- Desserts
 	"watermelonicle",
 	"pumpkincookie",	
@@ -59,6 +63,7 @@ return {
 -- Drinks
 	"sweettea",
 	"vegstinger",
+	"frozenbananadaiquiri",
 -- Beefalo Foods
 	"beefalofeed",
 	"beefalotreat",

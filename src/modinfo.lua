@@ -1,21 +1,23 @@
-name = "Too Many Items Plus"
-version = "1.1.2"
+name = "Starver's Catalog"
+version = "1.0"
 description = name .." Version: "..version..
 [[
 
-Allows you to spawn any item you want and more powerful features.
-You must be a Admin to use this.
-Press (T) to open spawn menu.
-Left Click to spawn 1 item.
-Right Click to spawn 10 items.
-Toggle Button and spawn num are Configurable.
+Updated version of Too Many Items Plus.
+Tired of being a pathetic weakling? This mod allows you to spawn anything you want, change the state of the world, and defy the laws of physics.
+(You have to be the server admin, though.)
+Default Controls (Can be configured):
+	- T: Open menu
+	- Left click: Spawn 1 item
+	- Right click: Spawn 10 items
+	- Ctrl + Click: Add item to favorites list
 You can customize a special item list.
-(Add or Delete a item by hold down the ctrl key and click.)
-Codes by C.J.B. | Items and bug fix by GaRAnTuLA. | DST version by Skull. | FIX By TheMightyPikachu & Electroely.
+
+2025 Update by lea | Codes by C.J.B. | Items and bug fix by GaRAnTuLA. | DST version by Skull. | FIX By TheMightyPikachu & Electroely.
 UI and codes optimization by Tendy. | Classify,art design and some updates by 乐十画.
 ]]
 
-author = "CJB,GaRAnTuLA,Skull,TheMightyPikachu,Electroely,Tendy,乐十画"
+author = "lea,CJB,GaRAnTuLA,Skull,TheMightyPikachu,Electroely,Tendy,乐十画"
 api_version = 10
 priority = -7000
 dont_starve_compatible = false

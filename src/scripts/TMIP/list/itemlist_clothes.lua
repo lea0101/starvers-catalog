@@ -46,7 +46,7 @@ return {
 	"mermhat",
 	"bushhat",
 	"batnosehat",
-	"armor_carrotlure"
+	"armor_carrotlure",
 
 -- Vanity/Non-functional
 	"goggleshat",
@@ -54,6 +54,7 @@ return {
 	"dragonbodyhat",		
 	"dragontailhat",
 	"sweatervest",
+	"eyemaskhat",
 
 -- Mushroom Hats
 	"red_mushroomhat",
@@ -66,26 +67,36 @@ return {
 -- Stage Costumes
 	-- Queen
 	"mask_queenhat",
+	"costume_queen_body",
 	-- King
 	"mask_kinghat",
+	"costume_king_body",
 	-- Mirror
-	"mask_mirrorhat"
+	"mask_mirrorhat",
+	"costume_mirror_body",
 	-- Doll
 	"mask_dollhat",
+	"costume_doll_body",
 	-- Shattered Doll
 	"mask_dollbrokenhat",
 	-- Repaired Doll
 	"mask_dollrepairedhat",
 	-- Jester
-	"mask_foolhat"
+	"mask_foolhat",
+	"costume_fool_body",
 	-- Blacksmith
 	"mask_blacksmithhat",
+	"costume_blacksmith_body",
 	-- Tree :)
-	"mask_treehat"
+	"mask_treehat",
+	"costume_tree_body",
 	-- Sage
 	"mask_sagehat",
+	"costume_sage_body",
 	-- Toady
 	"mask_toadyhat",
+	"costume_toady_body",
 	-- Halfwit
 	"mask_halfwithat",
+	"costume_halfwit_body",
 }

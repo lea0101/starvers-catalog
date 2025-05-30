@@ -13,7 +13,7 @@ return {
 	"nightsword",
 	"glasscutter",
 	"nightstick",
-
+	"cutless",
 -- Ranged Weapons
 	"boomerang",
 	"blowdart_pipe",
@@ -22,6 +22,8 @@ return {
 	"blowdart_fire",
 	"staff_tornado",
 	"waterplant_bomb",
+	"bomb_lunarplant",
+
 -- Wes
 	"balloonvest",
 	"balloonhat",
@@ -37,6 +39,16 @@ return {
 	"slingshotammo_freeze",
 	"slingshotammo_slow",
 	"slingshotammo_thulecite",
+-- Wolfgang
+	"dumbell",
+	"dumbell_bluegem",
+	"dumbell_redgem",
+	"dumbell_gem",
+	"dumbell_golden",
+	"dumbell_heat",
+	"dumbell_marble",
+-- Wendy
+	"ghostflowerhat",
 
 -- Armor Pairs
 
@@ -49,7 +61,7 @@ return {
 	"slurtlehat",
 	"hivehat",
 	"skeletonhat",
-
+	"dreadstonehat",
 -- Armor (Body Slot)
 	"armorgrass",
 	"armor_bramble",
@@ -64,7 +76,7 @@ return {
 	"armor_lunarplant_husk",
 	"armor_voidcloth",
 	"armordreadstone",
-	"armorwagpunk"
+	"armorwagpunk",
 -- Backpacks
 	"backpack",
 	"piggyback",
@@ -74,4 +86,6 @@ return {
 	"candybag",
 	"seedpouch",
 	"beargerfur_sack",
+-- Misc.
+	"diviningrod", -- you will never be free
 }

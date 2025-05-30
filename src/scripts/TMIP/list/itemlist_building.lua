@@ -82,6 +82,7 @@ return {
 	"moondial",
 	"townportal",
 	"eyeturret",
+	"deerclopseyeball_sentryward_kit",
 --薇诺娜
 	"winona_battery_high",
 	"winona_battery_low",
@@ -151,4 +152,10 @@ return {
 --隐士小岛
 	"beebox_hermit",
 	"meatrack_hermit",
+-- Decor
+	"decor_centerpiece",
+	"decor_flowervase",
+	"decor_lamp",
+	"decor_pictureframe",
+	"decor_portraitframe",
 }

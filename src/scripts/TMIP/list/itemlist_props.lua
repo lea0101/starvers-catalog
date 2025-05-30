@@ -1,6 +1,7 @@
 return {
     "reskin_tool",
     "cookbook",
+    "chestupgrade_stacksize,",
 -- Traps/Mines
     "gunpowder",
     "beemine",
@@ -10,6 +11,7 @@ return {
     "sleepbomb",
     "panflute",
     "eyeturret_item",
+    "cannonball_rock_item",
 -- Healing
     "healingsalve",
     "bandage",
@@ -36,6 +38,11 @@ return {
         "ghostlyelixir_fastregen",
         "ghostlyelixir_shield",
         "ghostlyelixir_retaliation",
+        "ghostlyelixir_shadow",
+        "ghostlyelixir_revive",
+        "ghostlyelixir_shadow",
+        "elixir_container",
+        "graveurn",
     -- Willow
         "bernie_inactive",
     -- Wigfrid
@@ -59,9 +66,20 @@ return {
         "book_brimstone",
         "book_gardening",
         "book_horticulture",
+        "book_horticulture_upgraded",
         "book_silviculture",
         "book_sleep",
         "book_tentacles", -- ( ͡° ͜ʖ ͡°) 
+        "book_bees",
+        "book_fire",
+        "book_fish",
+        "book_light",
+        "book_light_upgraded",
+        "book_moon",
+        "book_rain",
+        "book_research_station",
+        "book_temperature",
+        "book_web",
     -- Waxwell
         "waxwelljournal",
 -- Moon Stuff
@@ -143,7 +161,7 @@ return {
         "yotb_post_item",
         "yotb_sewingmachine_item",
         "yotb_stage_item",
-        "beefalo_groomer_item"
+        "beefalo_groomer_item",
     -- Hallowed Nights
         "halloweenpotion_bravery_small",
         "halloweenpotion_bravery_large",

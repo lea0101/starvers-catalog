@@ -117,11 +117,13 @@ return {
     "rocky",
     "slurper",
     "worm",
+    "gelblob",
     --坎普斯
     "krampus",
     --鬼魂
     "ghost",
     "smallghost",
+    "graveguard_ghost",
     --海洋生物
     "trap_starfish",
     "waterplant",
@@ -156,4 +158,10 @@ return {
     -- Storm
     "bird_mutant",
     "bird_mutant_spitter",
+    -- 'Moon' Island
+    "gestalt",
+    "gestalt_alterguardian_projectile",
+    "gestalt_guard",
+    -- Mangrove
+    "grassgator",
 }

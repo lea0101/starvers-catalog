@@ -34,6 +34,7 @@ return {
 	"saltrock",
 	"moonglass",
 	"transistor",
+	"dreadstone",
 --精炼矿石材料
 	"cutstone",
 	"marblebean",

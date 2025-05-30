@@ -143,5 +143,14 @@ return {
 	"sculpture_bishop",
 	"sculpture_knight",
 	"sculpture_rook",
-
+	"chesspiece_catcoon",
+	"chesspiece_daywalker",
+	"chesspiece_daywalker2",
+	"chesspiece_deerclops_mutated",
+	"chesspiece_manrabbit",
+	"chesspiece_sharkboi",
+	"chesspiece_twinsofterror",
+	"chesspiece_warg_mutated",
+	"chesspiece_wormboss",
+	"chesspiece_yots",
 }

@@ -1,5 +1,5 @@
 return {
-    --航海工具
+    -- Boats
     "oar",
     "oar_driftwood",
     "malbatross_beak",
@@ -21,7 +21,10 @@ return {
     "boat_rotator_kit",
     "boat_bumper_yotd_kit",
     "boatpatch_kelp",
-    --采集工具
+    "dock_kit",
+    "dock_woodposts_item",
+    "dragonboat_pack",
+    -- Basic Tools
     "axe",
     "goldenaxe",
     "moonglassaxe",
@@ -31,7 +34,10 @@ return {
     "multitool_axe_pickaxe",
     "shovel",
     "goldenshovel",
-    --农业工具
+    "hammer",
+    "pitchfork",
+    "razor",
+    -- Farming Tools
     "farm_plow_item",
     "farm_hoe",
     "golden_farm_hoe",
@@ -43,11 +49,6 @@ return {
     "soil_amender_fermented",
     "plantregistryhat",
     "nutrientsgoggleshat",
-    --装修工具
-    "hammer",
-    "pitchfork",
-    --刮毛工具
-    "razor",
     --书写工具
     "featherpencil",
     --训牛工具
@@ -123,5 +124,5 @@ return {
     "oceanfishingbobber_goose",
     "oceanfishingbobber_malbatross",
     --称重工具
-    "pocket_scale"
+    "pocket_scale",
 }
