@@ -42,7 +42,7 @@ return {
 
 -- Other functional clothing
 	"featherhat",
-	"deserthat"
+	"deserthat",
 	"mermhat",
 	"bushhat",
 	"batnosehat",

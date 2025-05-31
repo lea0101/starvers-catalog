@@ -17,7 +17,7 @@ function gotoswitch(point1, point2)
 end
 
 local world_id = TheWorld.meta.session_identifier or 'world'
-local savepath = TOOMANYITEMS.TELEPORT_DATA_FILE .. 'toomanyitemsplus_teleport_save_' .. world_id
+local savepath = TOOMANYITEMS.TELEPORT_DATA_FILE .. 'starvers-catalog_teleport_save_' .. world_id
 
 local function LoadTeleportData(slot_num)
     if slot_num and type(slot_num) == 'number' then

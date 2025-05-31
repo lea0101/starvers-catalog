@@ -154,7 +154,7 @@ return {
     "pigelite4",
     "gingerbreadpig",
     --NPC
-    "hermitcrab"
+    "hermitcrab",
     -- Storm
     "bird_mutant",
     "bird_mutant_spitter",

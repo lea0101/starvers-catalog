@@ -33,7 +33,7 @@ return {
     "moonbutterfly",
     "acorn_sapling",
     -- Flowers
-    "butterfly"
+    "butterfly",
     "moonbutterfly",
     -- Dug crops
     "dug_berrybush",
@@ -51,7 +51,7 @@ return {
     -- Barnacles
     "waterplant_planter",
     -- Ancient Trees
-    "ancienttree_gem_sapling_item,
+    "ancienttree_gem_sapling_item",
     "ancienttree_nightvision_sapling_item",
     "ancienttree_seed",
     -- Waxed Items

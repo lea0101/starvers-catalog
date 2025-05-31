@@ -16,7 +16,7 @@ Assets = {
 }
 --初始化选项设置
 _G.TOOMANYITEMS = {
-    DATA_FILE = "mod_config_data/toomanyitemsplus_data_save",
+    DATA_FILE = "mod_config_data/modconfiguration_starvers-catalog",
     TELEPORT_DATA_FILE = "mod_config_data/",
     CHARACTER_USERID = "",
     TELEPORT_TEMP_TABLE = {},
@@ -37,6 +37,7 @@ _G.TOOMANYITEMS = {
     G_TMIP_DEBUG_MENU_SIZE = GetModConfigData("GOP_TMIP_DEBUG_MENU_SIZE"),
     G_TMIP_MOD_ROOT = MODROOT
 }
+
 --读取数据文件
 if _G.TOOMANYITEMS.G_TMIP_DATA_SAVE == -1 then
     local filepath = _G.TOOMANYITEMS.DATA_FILE
@@ -78,6 +79,7 @@ elseif _G.TOOMANYITEMS.G_TMIP_DATA_SAVE == 1 then
         _G.TOOMANYITEMS.SaveData(_G.TOOMANYITEMS.DATA_FILE, _G.TOOMANYITEMS.DATA)
     end
 end
+
 
 STRINGS = _G.STRINGS
 STRINGS.TOO_MANY_ITEMS_UI = {}
@@ -297,14 +299,18 @@ local function AddTMIMenu(self)
     controls.TMI:Hide()
 end
 
+-- This was used for compatability with another mod.
+-- Making it redundant for the time being because it is causing me issues :<
 local function v(x, y, z)
-    local w = string.sub(_G.TOOMANYITEMS.G_TMIP_MOD_ROOT, x, y)
-    if w == _G.tostring(z) then
-        return true
-    else
-        return false
-    end
+    return true
+    -- local w = string.sub(_G.TOOMANYITEMS.G_TMIP_MOD_ROOT, x, y)
+    -- if w == _G.tostring(z) then
+    --     return true
+    -- else
+    --     return false
+    -- end
 end
+
 local function ShowTMIMenu()
     if v(18, 19, 13) then
         if IsHUDScreen() then

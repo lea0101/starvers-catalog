@@ -199,7 +199,7 @@ local TooManyItems =
             self.shield:SetTint(1, 1, 1, 0.6)
 
             local world_id = TheWorld.meta.session_identifier or "world"
-            local savepath = TOOMANYITEMS.TELEPORT_DATA_FILE .. "toomanyitemsplus_teleport_save_" .. world_id
+            local savepath = TOOMANYITEMS.TELEPORT_DATA_FILE .. "starvers-catalog_teleport_save_" .. world_id
 
             if TOOMANYITEMS.G_TMIP_DATA_SAVE == 1 then
                 if TOOMANYITEMS.LoadData(savepath) then
